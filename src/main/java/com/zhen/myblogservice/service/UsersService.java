@@ -1,9 +1,7 @@
 package com.zhen.myblogservice.service;
 
-import com.zhen.myblogservice.entity.Article;
+import com.zhen.myblogservice.entity.Users;
 import com.baomidou.mybatisplus.extension.service.IService;
-
-import java.util.List;
 
 /**
  * <p>
@@ -11,8 +9,8 @@ import java.util.List;
  * </p>
  *
  * @author zhen
- * @since 2021-01-23
+ * @since 2021-01-25
  */
-public interface ArticleService extends IService<Article> {
+public interface UsersService extends IService<Users> {
 
 }
